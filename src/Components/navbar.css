@@ -1,0 +1,216 @@
+.nav-div {
+    width: 84.5%;
+    margin-left: 16%;
+    height: 13vh;
+    display: flex;
+    /* background: var(--color-white); */
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .dark-mode {
+    background-color: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.6rem;
+    width: 4.2rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+  }
+  .inner-div {
+    width: 100%;
+    display: flex;
+  }
+  .left-div {
+    width: 70%;
+  }
+  .right-div {
+    width: 33%;
+  
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  .sun {
+    background-color: var(--color-primary);
+    border: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .iconss {
+    color: white;
+    border-radius: 0.4rem;
+    font-size: 20px;
+  }
+  .moon {
+    background-color: rgb(233, 233, 233);
+    border: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .moo {
+    border-radius: 0.4rem;
+    font-size: 20px;
+  }
+  .dark {
+    background-color: black;
+    color: #fff;
+  }
+  .light {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .date {
+    background: var(--color-light);
+    width: 143px;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+  }
+  .date input[type="date"] {
+    background-color: transparent;
+    color: var(--color-info-dark);
+    border: none;
+    height: 25px;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  .person-div {
+    display: flex;
+  }
+  .per-icon {
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 2px;
+    height: 50px;
+    background-size: 100% 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-div {
+      width: 100%;
+      margin-left: 0px;
+    }
+    .Main {
+      margin-top: 20px;
+    }
+    .left-div {
+      margin-left: 100px;
+      width: 330px;
+    }
+    .person-div h3 {
+      display: none;
+    }
+    .nav-div {
+      height: 10vh;
+    }
+  }
+  
+  @media screen and (max-width: 496px) {
+    .nav-div {
+      width: 100%;
+      margin-left: 0px;
+    }
+    .left-div {
+      margin-left: 100px;
+      width: 210px;
+    }
+    .person-div h3 {
+      display: none;
+    }
+    .right-div {
+      margin-left: 10px;
+    }
+    .nav-div {
+      height: 10vh;
+    }
+  }
+  
+  @media screen and (max-width: 424px) {
+    .nav-div {
+      width: 100%;
+    }
+    .sun {
+      height: 30px;
+      width: 30px;
+    }
+    .moon {
+      height: 30px;
+      width: 30px;
+    }
+    .moo {
+      font-size: 15px;
+    }
+    .iconss {
+      font-size: 15px;
+    }
+    .left-div {
+      width: 120px;
+    }
+    .person-div h3 {
+      display: none;
+    }
+    .nav-div {
+      height: 10vh;
+    }
+    .inp {
+      width: 120px;
+    }
+  }
+  
+  @media screen and (max-width: 337px) {
+    .right-div {
+      margin-left: 10px;
+      display: flex;
+      width: 130px;
+      justify-content: center;
+      align-content: center;
+    }
+    .left-div {
+      width: 120px;
+      margin-left: 60px;
+    }
+  }
+  @media screen and (max-width: 297px) {
+    .right-div {
+      margin-left: 10px;
+      display: flex;
+      width: 130px;
+      justify-content: center;
+      align-content: center;
+    }
+    .left-div {
+      width: 120px;
+      margin-left: 60px;
+    }
+    .sun {
+      height: 22px;
+      width: 22px;
+    }
+    .moon {
+      height: 22px;
+  
+      width: 22px;
+    }
+    .moo {
+      font-size: 11px;
+    }
+    .iconss {
+      font-size: 11px;
+    }
+    .left-div {
+      width: 120px;
+    }
+  }
+  
